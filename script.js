@@ -22,6 +22,11 @@ class Usuario {
 	}
 }
 
+function criaUsuario() {
+	var usuario;
+	return usuario;
+}
 function cadastrar() {
 	console.log('Cadastro iniciado...');
+	var usuario;
 }
