@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+	<div class="container mt-5 mb-5">
+		<div class="jumbotron">
+			<h2 class="display-4">Atividade!</h2>
+			<p class="lead">Vamos fazer uma atividade de manipulação do DOM?</p>
+			<hr class="my-4">
+			<p>Deixei esse código preparado pra que vocês possam utilizar na atividade. Ao clicar no botão 'Cadastrar', a função 'cadastar' que existe no arquivo 'script.js' será executada. Para completar a atividade, siga os passos:</p>
+			<ol>
+				<li>Preencha a função 'cadastrar' com um código que leia os dados de um usuário do formulário, crie uma instância de 'Usuario' e imprima no console.</li>
+				<li>Altere a função 'cadastrar' para que ela insira os dados na tabela de usuários cadastrados.</li>
+			</ol>
+		</div>
+		<form>
+			<div class="form-group">
+				<label for="email">Email address</label>
+				<input type="email" class="form-control" id="email">
+			</div>
+			<div class="form-group">
+				<label for="npme">Nome</label>
+				<input type="text" class="form-control" id="nome">
+			</div>
+			<div class="form-group form-check">
+				<input type="checkbox" class="form-check-input" id="ativo">
+				<label class="form-check-label" for="ativo">Usuário ativo?</label>
+			</div>
+			<button type="submit" class="btn btn-primary" onclick="cadastrar()">Cadastrar</button>
+		</form>
+		<table class="table mt-5">
+			<thead>
+				<tr>
+					<th scope="col">Nome</th>
+					<th scope="col">Email</th>
+					<th scope="col">Ativo</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Max</td>
+					<td>max@arbyte.com.br</td>
+					<td>Sim</td>
+				</tr>
+				<tr>
+					<td>Rafael Magalhães</td>
+					<td>magalhaes@arbyte.com.br</td>
+					<td>Sim</td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>
