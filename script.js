@@ -26,7 +26,7 @@ function criaUsuario() {
 	var usuario;
 	return usuario;
 }
-function cadastrar() {
+function cadastrar(e) {
 	console.log('Cadastro iniciado...');
 	var usuario;
 }
