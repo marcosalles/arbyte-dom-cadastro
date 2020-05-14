@@ -10,7 +10,7 @@ Deixei esse código preparado pra que vocês possam utilizar na atividade. Ao cl
 
 Lembrando de alguns métodos úteis de manipulação do DOM:
 
-```
+```javascript
 // Pegar um elemento do DOM:
 document.querySelector('tag');
 document.querySelector('#id');
