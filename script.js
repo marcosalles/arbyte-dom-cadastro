@@ -8,7 +8,7 @@ function criaUsuario() {
 	var usuario;
 	return usuario;
 }
-function cadastrar(e) {
+function cadastrar() {
 	console.log('Cadastro iniciado...');
 	var usuario;
 }
