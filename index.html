@@ -3,8 +3,17 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
+	<title>Atividade extra!</title>
 	<link rel="stylesheet" href="bootstrap.min.css">
+	<style>
+		code {
+			color: black;
+			display: inline;
+			margin: 0 4px;
+			padding: 1px;
+			background-color: bisque;
+		}
+	</style>
 </head>
 <body>
 	<div class="container mt-5 mb-5">
@@ -12,10 +21,12 @@
 			<h2 class="display-4">Atividade extra!</h2>
 			<p class="lead">Vamos fazer uma atividade de manipulação do DOM?</p>
 			<hr class="my-4">
-			<p>Deixei esse código preparado pra que vocês possam utilizar na atividade. Ao clicar no botão 'Cadastrar', a função 'cadastar' que existe no arquivo 'script.js' será executada. Para completar a atividade, siga os passos:</p>
+			<p>Deixei esse código preparado pra que vocês possam utilizar na atividade. Ao clicar no botão 'Cadastrar', a função <code>cadastrar</code> que existe no arquivo <code>script.js</code> será executada. Para completar a atividade, siga os passos:</p>
 			<ol>
-				<li>Preencha a função `pegaUsuario` com um código que leia os dados de um usuário do formulário e crie uma instância de `Usuario`. Altere a função `cadastrar` para que ela imprima os dados do usuário no console.</li>
-				<li>Altere a função 'cadastrar' para que ela insira os dados na tabela de usuários cadastrados.</li>
+				<li>Preencha a função <code>criaUsuario</code> com um código que crie uma instância de <code>Usuario</code> com dados escritos à mão (sem pedir para o usuário preencher nada).</li>
+				<li>Altere a função <code>cadastrar</code> para que ela crie um usuário (utilizando a função <code>criaUsuario</code>) e imprima os dados do usuário no console.</li>
+				<li>Altere a função <code>criaUsuario</code> para que o usuário criado utilize os dados lidos do formulário.</li>
+				<li>Altere a função <code>cadastrar</code> para que ela insira os dados do usuário lido do formulário na tabela de usuários cadastrados.</li>
 			</ol>
 		</div>
 		<form>
